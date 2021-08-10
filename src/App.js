@@ -9,7 +9,7 @@ function App() {
     <div>
       <Switch>
         <Route path="/" exact>
-          <Redirect to="" />
+          <Redirect to="/quotes" />
         </Route>
         <Route path="/quotes" exact>
           <AllQuotes />
